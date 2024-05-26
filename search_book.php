@@ -45,10 +45,10 @@ if (isset($_GET['query'])) {
             <td><a href="<?php echo $row['link']; ?>" target="_blank">Comprar</a></td>
             <td>
               <a href="edit_book.php?id=<?php echo $row['id']?>" class="btn btn-secondary">
-                <i class="fas fa-marker"></i>
+                <i class="fas fa-marker">Editar</i>
               </a>
               <a href="delete_book.php?id=<?php echo $row['id']?>" class="btn btn-danger">
-                <i class="far fa-trash-alt"></i>
+                <i class="far fa-trash-alt">Borrar</i>
               </a>
             </td>
           </tr>
